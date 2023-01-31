@@ -14,7 +14,7 @@
 * Inside the resource folder put "n0rmie_0trigger"
 * On yor server.cfg start "n0rmie_0trigger" as the first script
 * [Optional] Obfuscate files - recommended free obfuscator > [LuaObfuscator](https://luaobfuscator.com)
-* Once the server (and script) has started, write on the console: "n0rmie install"
+* Once the server (and script) has started, write on the console: `n0rmie install`
 * Wait until installed
 * Reboot server
 * To protect a trigger:
@@ -30,7 +30,9 @@
 | TriggerClientEvent("test") | secured_TriggerClientEvent("test") | Protected ✅ |
 
 </h4>
+```shell script
  ONLY ADVANCED USERS (could break your server) - For more security, change the convar "n0rmie_89wASdnESCnWWCKSZT2CNnoog7Y6q2U6" to a spoofed one (remember both on the script and the atrigger.lua before installing)
+```
 </div>
 
 ## This is a Beta version, soon i will publish the right doc with examples... (If any issues found, please notify me on the issues tab)
