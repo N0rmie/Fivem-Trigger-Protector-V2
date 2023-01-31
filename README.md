@@ -13,6 +13,7 @@
 
 * Inside the resource folder put "n0rmie_0trigger"
 * On yor server.cfg start "n0rmie_0trigger" as the first script
+* [Optional] Obfuscate file - recommended free obfuscator > [LuaObfuscator](https://luaobfuscator.com)
 * Once the server (and script) has started, write on the console: "n0rmie install"
 * Wait until installed
 * Reboot server
