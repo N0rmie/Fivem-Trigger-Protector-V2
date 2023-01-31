@@ -31,7 +31,7 @@
 
 </h4>
  ONLY ADVANCED USERS (could break your server) - For more security, change the convar "n0rmie_89wASdnESCnWWCKSZT2CNnoog7Y6q2U6" to a spoofed one (remember both on the script and the atrigger.lua before installing)
-
+</div>
 ## This is a Beta version, soon i will publish the right doc with examples... (If any issues found, please notify me on the issues tab)
 
 ## License
