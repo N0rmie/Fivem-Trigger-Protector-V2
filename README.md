@@ -23,10 +23,13 @@
 * RegisterServerEvent("test") | secured_RegisterServerEvent("test")
 * RegisterNetEvent("test") | secured_RegisterNetEvent("test")
 * etc... | etc...
-* ONLY ADVANCED USERS (could break your server) - For more security, change the convar "n0rmie_89wASdnESCnWWCKSZT2CNnoog7Y6q2U6" to a spoofed one (remember both on the script and the atrigger.lua)
+* ONLY ADVANCED USERS (could break your server) - For more security, change the convar "n0rmie_89wASdnESCnWWCKSZT2CNnoog7Y6q2U6" to a spoofed one (remember both on the script and the atrigger.lua before installing)
 
 ## This is a Beta version, soon i will publish the right doc with examples... (If any issues found, please notify me on the issues tab)
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Thx
+- Thanks to [VisiBait](https://github.com/visibait) for the installer (found on the old published VB-AC)
