@@ -48,14 +48,14 @@ else
             _resourcemanifest = LoadResourceFile(_resname, "__resource.lua")
             _resourcemanifest2 = LoadResourceFile(_resname, "fxmanifest.lua")
             if _resourcemanifest then
-                Wait(100)
+                _wait(100)
                 _toadd = "--------- Protected By !N0rmie / github.com/N0rmie\nshared_script 'atrigger.lua'\n--------- Protected By !N0rmie / github.com/N0rmie\n" .. _resourcemanifest
                 SaveResourceFile(_resname, "atrigger.lua", _0trigfile, -1)
                 SaveResourceFile(_resname, "__resource.lua", _toadd, -1)
                 print("^7[^6!N0rmie^7] | ^2 Loaded protection in > ^7".._resname)
                 count = count + 1
             elseif _resourcemanifest2 then
-                Wait(100)
+                _wait(100)
                 _toadd = "--------- Protected By !N0rmie / github.com/N0rmie\nshared_script 'atrigger.lua'\n--------- Protected By !N0rmie / github.com/N0rmie\n" .. _resourcemanifest2
                 SaveResourceFile(_resname, "atrigger.lua", _0trigfile, -1)
                 SaveResourceFile(_resname, "fxmanifest.lua", _toadd, -1)
@@ -78,7 +78,7 @@ else
                 _resourcemanifest = LoadResourceFile(_resname, "__resource.lua")
                 _resourcemanifest2 = LoadResourceFile(_resname, "fxmanifest.lua")
                 if _resourcemanifest then
-                    Wait(100)
+                    _wait(100)
                     _toadd = _resourcemanifest:gsub("shared_script 'atrigger.lua'", "")
                     _toadd = _toadd:gsub("--------- Protected By !N0rmie / github.com/N0rmie", "")
                     SaveResourceFile(_resname, "__resource.lua", _toadd, -1)
@@ -87,7 +87,7 @@ else
                     count = count + 1
                 end
                 if _resourcemanifest2 then
-                    Wait(100)
+                    _wait(100)
                     _toadd = _resourcemanifest2:gsub("shared_script 'atrigger.lua'", "")
                     _toadd = _toadd:gsub("--------- Protected By !N0rmie / github.com/N0rmie", "")
                     SaveResourceFile(_resname, "fxmanifest.lua", _toadd, -1)
@@ -110,14 +110,14 @@ else
                 if source == 0 then
                     Install()
                     print("^7[^6!N0rmie^7] ^20Trigger has been installed, exiting server...^7")
-                    Wait(5000)
+                    _wait(5000)
                     os.exit()
                 end
             elseif args[1] == "uninstall" then
                 if source == 0 then
                     Uninstall()
                     print("^7[^6!N0rmie^7] ^20Trigger has been uninstalled, exiting server...^7")
-                    Wait(5000)
+                    _wait(5000)
                     os.exit()
                 end
             else
